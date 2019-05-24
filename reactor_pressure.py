@@ -1,10 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Apr  5 14:31:22 2019
-
-@author: pang
-"""
 import numpy as np
 from scipy import optimize
 
