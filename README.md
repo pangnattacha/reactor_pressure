@@ -27,7 +27,7 @@ Calculate molar amount of water and air by
 <img src="https://latex.codecogs.com/gif.latex?P_%7Bsat%7D%20%3D%20exp%28C1&plus;C2/T&plus;C3lnT&plus;C4T%5E%7BC5%7D%29">
 
 2. Calculate V_sat of water
-<img src="https://latex.codecogs.com/gif.latex?V_%7Bsat%7D%20%3D%20V_cZ_c%5E%7B1-%28%29T/T_c%29%5E%7B2/7%7D%7D">
+<img src="https://latex.codecogs.com/gif.latex?V_%7Bsat%7D%20%3D%20V_cZ_c%5E%7B1-%28T/T_c%29%5E%7B2/7%7D%7D">
 
 ## Citations
 [1] Don W. Green, Robert H. Perry, McGraw-Hill Professional. (2008). Perry's Chemical Engineers' Handbook, Eighth Edition. VAPOR PRESSURES OF PURE SUBSTANCES, Chapter.
