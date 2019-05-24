@@ -31,7 +31,7 @@ Calculate molar amount of water and air by </br>
 
     <img src="https://latex.codecogs.com/gif.latex?V%3DV_s%5Cfrac%7BAP_c&plus;C%5E%7B%28D-Tr%29%5EB%7D%28P-P_%7Bsat%7D%29%7D%7BAP_c&plus;C%28P-P_%7Bsat%7D%29%7D">, cm3/mol </br>
 
-    A, B, C and D are the constants of Aalto et al.(1996), which can be found in the code.
+    A, B, C and D are the constants of Aalto et al.(1996), which can be found in the [code](https://github.com/pangnattacha/reactor_pressure/blob/master/reactor_pressure.py).
 
     Then, calculate mole of vapor using [Raoult's law](https://chemistry.tutorvista.com/inorganic-chemistry/raoults-law.html): </br>
 
