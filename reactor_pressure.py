@@ -2,13 +2,13 @@ import numpy as np
 from scipy import optimize
 
 ## reactor volume
-d = 1 # cm
-L = 15.5 # cm
+d = float(input("Enter diameter of the reactor in cm:")) # cm
+L = float(input("Enter length of the reactor in cm:")) # cm
 V_re = np.pi*(d**2)/4*L # cm3
 
 ## conditions
-T = 200 # degree Celcius
-percent_load = 0.8
+T = float(input("Enter reaction temperature in degree Celcius:")) # degree Celcius
+percent_load = float(input("Enter load of water in the reactor (e.g. 0.8 for 80%):"))
 
 
 V_water_amb = percent_load*V_re # cm3
@@ -68,4 +68,4 @@ def fun(P):
 
 sol = optimize.fsolve(fun,x0=P_sat+0.01)
 P = sol[0]
-print('Reactor pressure is now {0:.2f} bar.'.format(P))
+print('Reactor pressure becomes {0:.2f} bar after heating.'.format(P))
